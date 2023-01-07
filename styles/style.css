@@ -1,0 +1,224 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    
+}
+
+/* All header work */
+.header{
+    background: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+    height: 808px; 
+
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 25%;
+    padding-top: 300px;
+    padding-right: 400px;
+    text-align: right;
+    
+}
+.bnr-title{
+    font-size: 55px;
+    font-weight: 1000;
+    color: white;
+    margin-bottom: 10px;
+}
+.bnr-txt{
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.bnr-btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    color: #005FAC;
+    
+}
+.btn-div{
+    justify-content: end;
+}
+
+/* For Second Part */
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+ul li:before{
+    content: '✓ ';
+    color: #16D887;
+    
+}
+.second-part{
+    float: right;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    
+
+   
+}
+.sec-img{
+    width: 569px;
+    height: 723px;
+    display: flex;
+    align-items: center;
+}
+.failure{
+    padding-top: 230px;
+    width: 30%;
+    padding-right: 50px;
+}
+
+.sec-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.sec-txt{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+li{
+    padding-bottom: 8px;
+}
+
+/* Third Part */
+.plan{
+  width: 100%;
+  height: 1400px;
+  
+}
+
+.p-title{
+    float: right;
+    width: 50%; 
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.plans{
+    display: flex;
+    float: right;
+    width: 90%;
+}
+.div-1{
+    width: 25%;
+    text-align: center;
+    
+    
+    
+}
+
+.div-img{
+    padding-bottom: 60px;
+}
+.div-1p{
+    color: #737272;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top:16px ;
+    padding-bottom: 50px;
+}
+.div-1ph{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+/* Fourth Part */
+.fourth-part{
+    
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) ,url(../images/watch.png);
+    width: 1140px;
+    height: 270px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.abc{
+    width: 40%;
+    padding-top: 30px;
+    margin-left: 63px;
+    
+}
+.positive{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+/* footer part */
+.foot{
+    
+    background-color: black;
+    padding:50px 0px;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+.foot{
+    display: flex;
+    color: white;
+    
+   float: right; 
+
+}
+.foot-head{
+    
+    padding-right: 190px;
+    padding-left: 430px;
+    width: 30%;
+
+}
+.foot-fsize{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.foot-txt{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.foot-tsize{
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 31px;
+}
+.foot-form{
+    width: 325px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    background: black;
+    border-radius: 10px; 
+    color: white ;
+    margin-bottom: 31px;
+    border-color: white;
+    
+    
+    
+}
+.foot-btn{
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
